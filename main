@@ -1,2 +1,17 @@
 Hello everyone
-This is after branching in branch 1
+This is after branching in branch1
+Commands are as below 
+mkdir test 
+cd test
+git init
+vi main --> i --> Hi everyone --> esc --> :wq!
+git add.
+git commit -m "Commit before branching"
+git checkout -b branch1
+vi main --> i-->  This is after branching in branch1 --> esc --> :wq!
+git add .
+git commit -m "Changes committed after branching"
+git remote add origin https://github.com/Ganesh-N-Hegde/Microdegree.git
+git push -u Microdegree branch1
+username 
+password
